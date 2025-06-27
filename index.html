@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vision International Company</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Company Logo" style="width:100px;">
+    <h1>Vision International Company</h1>
+    <p>Kigali, Rwanda - Gisozi</p>
+  </header>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo-title">Vision International Company</div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <script>
+    function toggleMenu() {
+      const links = document.querySelector('.nav-links');
+      links.classList.toggle('active');
+    }
+  </script>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Vision International Company</h2>
+    <p>We connect workers with employers across various fields in Rwanda. Whether you're looking for reliable staff or seeking employment, we are here to help!</p>
+    <img src="images/welcome.jpg" alt="Welcome Image" style="width:100%; max-width:600px; display:block; margin:auto;">
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-item">Cleaner Placement</div>
+      <div class="service-item">Housekeeper Hiring</div>
+      <div class="service-item">Driver Recruitment</div>
+      <div class="service-item">Babysitter Services</div>
+      <div class="service-item">Security Staff Hiring</div>
+      <div class="service-item">Gardener and Domestic Workers</div>
+      <div class="service-item">Office Support Staff</div>
+      <div class="service-item">House Renting</div>
+      <div class="service-item">House Sale</div>
+      <div class="service-item">Land Sale</div>
+      <div class="service-item">Car Sale</div>
+      <div class="service-item">Car Renting</div>
+      <div class="service-item">We Help You Find Someone to Rent Your Car</div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Vision International Company is a staffing agency based in Gisozi, Kigali. We focus on connecting skilled workers with employers in need of household, personal, and business support services. With years of experience and a growing network, we ensure trust, professionalism, and quality services.</p>
+    <p>Our mission is to reduce unemployment by providing accessible and fair opportunities while making it easier for families and businesses to find the help they need.</p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Staff Member</h2>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="Staff/Dr Kamuhanda Claude.jpg" alt="Team Member">
+        <h4>APOSTEL DR.KAMUHANDA Claude</h4>
+        <p>CEO</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Staff/UYIRUTASATE Nadia.jpg" alt="Work Example">
+        <h4>UYIRUTASATE Nadia</h4>
+        <p>Marketing</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Staff/nn.jpg" alt="Company Event">
+        <h4>UWITONZE Macrisse</h4>
+        <p> Accountant</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="Staff/Obed.JPG" alt="Team Member">
+        <h4>NSABIMANA obed</h4>
+        <p>Human Resource</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Staff/rebecca.JPG" alt="Work Example">
+        <h4>ISHIMWE Rebecca</h4>
+        <p>Réceptionist</p>
+      </div>
+
+   
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: visioninternationalcampanyltd2@gmail.com</p>
+    <p>Location: Kigali, Rwanda - Gisozi</p>
+    <p>Phone: +250 788 465 724, <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +250 791 453 066 <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +250 787 278 126
+
+    <!-- Embedded Google Map -->
+    <div style="margin-top: 30px; text-align:center;">
+      <h3>Find Us Here</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7197421039953!2d30.05852807419777!3d-1.9347891980867144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7539e3a8c65%3A0x1e69bc6348f27c77!2sGisozi!5e0!3m2!1sen!2srw!4v1719151549851"
+        width="100%"
+        height="300"
+        style="border:0; border-radius: 10px;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vision International Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
